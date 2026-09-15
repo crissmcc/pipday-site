@@ -33,6 +33,10 @@ main {
   margin-bottom: 72px;
 }
 
+.featuring-page .brand {
+  margin-bottom: 48px;
+}
+
 .wordmark {
   display: block;
   width: min(100%, 156px);
@@ -87,6 +91,31 @@ ul {
   font-size: 0.94rem;
 }
 
+.featuring-intro {
+  max-width: 31rem;
+  margin-bottom: 32px;
+  color: #625b51;
+  font-size: 1.05rem;
+}
+
+.product-demo {
+  display: block;
+  width: min(100%, 360px);
+  height: auto;
+  margin-inline: auto;
+  background: #27231f;
+  border-radius: 14px;
+}
+
+.demo-caption {
+  max-width: 31rem;
+  margin: 24px auto 0;
+  color: #756d61;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
 ul {
   padding-left: 1.35rem;
 }
@@ -120,6 +149,10 @@ footer {
 
   .brand {
     margin-bottom: 88px;
+  }
+
+  .featuring-page .brand {
+    margin-bottom: 56px;
   }
 
   section + section {
