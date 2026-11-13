@@ -27,10 +27,10 @@
         <p class="updated">Last updated: November 13, 2026</p>
 
         <h2>Privacy at a Glance</h2>
-        <p>Pipday processes the photos you select and creates stickers and Pages directly on your device. Your selected photos, sticker images, Page images, Page backgrounds, and Page content are not uploaded to Pipday servers or to our analytics provider.</p>
+        <p>Pipday processes photos and creates stickers and Pages on your device. Your photos, stickers, Pages, and related content are not uploaded to Pipday servers or Amplitude.</p>
         <p>Pipday does not require an account.</p>
-        <p>Pipday uses Amplitude to collect limited analytics data about how the app is used. This includes a pseudonymous device identifier, app interaction events, session information, app and system version information, device model, device language, the Pipday interface language, and approximate geographic information inferred from the IP address of an analytics request.</p>
-        <p>Pipday does not request GPS or precise-location permission and does not collect precise coordinates. We mainly use the country or region inferred from an IP address for product analytics and issue investigation. We do not use this information for targeted advertising or cross-app tracking.</p>
+        <p>Pipday uses Amplitude to understand product usage. Analytics data may include a pseudonymous device identifier, app interactions, app and device information, interface language, and approximate location inferred from the IP address of an analytics request.</p>
+        <p>Pipday does not request GPS or precise location access. Analytics data is not used for targeted advertising or cross-app tracking.</p>
 
         <h2>1. Photos and Local Image Processing</h2>
         <p>When you choose a photo to create a sticker or use as a Page background, Pipday uses Apple’s system photo picker so you can select the specific photo you want to use.</p>
@@ -40,16 +40,11 @@
         <p>When you use a photo as a Page background, Pipday creates a local image copy in the app’s private storage so the Page can be saved and edited later. This copy remains on your device unless you delete the Page or remove the app, subject to device backups or copies you save or share elsewhere.</p>
 
         <h2>2. Data Stored on Your Device</h2>
-        <p>Pipday stores information needed to provide its features locally on your device. This may include:</p>
+        <p>Photos selected for processing remain on your device. Pipday stores the stickers, Pages, and related resources needed to provide its features locally on your device. This may include:</p>
         <ul>
-          <li>stickers you create, including sticker images and thumbnails;</li>
-          <li>sticker creation dates, styles, and color palette information;</li>
-          <li>Pages you create and information needed to reopen and edit them;</li>
-          <li>Page thumbnails and rendered previews;</li>
+          <li>stickers you create, including images, thumbnails, creation dates, styles, and color palette information;</li>
+          <li>Pages and the information needed to reopen, edit, and render them, including text, layout, appearance settings, thumbnails, and previews;</li>
           <li>local image copies used within Pages, including Page backgrounds and images added to a Page;</li>
-          <li>text and text formatting used in Pages;</li>
-          <li>shapes, canvas ratio, canvas background, and other Page appearance settings;</li>
-          <li>Page editing information such as item position, scale, rotation, and layer order; and</li>
           <li>other information needed for Pipday to remember your content and app state.</li>
         </ul>
         <p>Pipday does not currently provide cloud synchronization or its own user account system.</p>
@@ -83,34 +78,14 @@
         <h2>6. Sharing and External Services</h2>
         <p>Pipday allows you to share stickers and Page exports, share Pipday, open Instagram, visit the App Store, or leave a rating.</p>
         <p>When you choose to share a sticker or Page export, the image is passed to Apple’s system sharing interface so you can choose where to send it. Pipday does not use this feature to track which external service you choose.</p>
-        <p>When you choose to use a sharing or external-service feature, information may be handled by Apple or by the third-party service you choose to use. Their own privacy policies apply to information handled by those services.</p>
-        <p>Pipday does not control how external services process information after you choose to interact with them.</p>
+        <p>When you use a sharing or external-service feature, information may be handled by Apple or the third-party service you choose, under that service’s privacy policy. Pipday does not control how those services process information after you choose to interact with them.</p>
 
         <h2>7. Analytics, Advertising and Tracking</h2>
-        <p>Pipday uses Amplitude, a third-party analytics service, to understand how people use the app and to help improve its features and reliability.</p>
-        <p>Pipday sends a limited set of analytics information to Amplitude, including:</p>
-        <ul>
-          <li>a pseudonymous device identifier used to distinguish devices and app usage over time;</li>
-          <li>session information;</li>
-          <li>interactions with Pipday features, such as creating and saving stickers, opening sticker details, downloading or sharing stickers, viewing and creating Pages, adding types of items to Pages, saving or sharing Page exports, viewing the purchase screen, and interacting with purchase controls;</li>
-          <li>Pipday app version;</li>
-          <li>iOS version;</li>
-          <li>device model;</li>
-          <li>device language;</li>
-          <li>the Pipday interface language (<code>app_language</code>);</li>
-          <li>approximate geographic information inferred from the IP address of an analytics request, as described below; and</li>
-          <li>technical event information such as event timestamps.</li>
-        </ul>
-        <p>Pipday does not send your selected photos, sticker images, Page images or exports, Page background photos, Page text or other Page content, color palette contents, support messages, or payment card information to Amplitude.</p>
-        <p>Pipday does not set an Amplitude user account identifier and does not require a Pipday account.</p>
-        <p>Amplitude receives the IP address associated with an analytics network request and uses GeoIP processing to infer approximate geographic information. This processing may produce country, region, city, or Designated Market Area (DMA) information. Pipday mainly uses Country to understand product usage across broad geographic areas and to investigate product issues.</p>
-        <p>Pipday does not request GPS or precise-location permission, does not send latitude or longitude to Amplitude, and does not add an IP address to custom event properties. GeoIP information is approximate and may reflect a network or VPN location rather than the device's actual location.</p>
-        <p>Amplitude processes the IP address associated with analytics requests to estimate approximate geographic information, such as country, region, or city. We mainly use country-level information to understand app usage and investigate issues.</p>
-        <p>IP addresses may be retained by Amplitude according to its data-handling and retention practices.</p>
-        <p>Pipday does not request precise location permissions or collect GPS coordinates. We do not use this information for targeted advertising or cross-app tracking.</p>
-        <p>Pipday does not use IDFA or other advertising identifiers.</p>
-        <p>Analytics information is used only to understand app usage, evaluate features, identify product issues, and improve Pipday.</p>
-        <p>Pipday does not use analytics information for targeted advertising or cross-app tracking and does not sell your personal information.</p>
+        <p>Pipday uses Amplitude, a third-party analytics service, to understand app usage, improve features, and investigate technical issues.</p>
+        <p>Analytics data may include a pseudonymous device identifier, session information, feature interactions, app and iOS versions, device model, device language, Pipday interface language, and event timestamps.</p>
+        <p>Amplitude processes IP addresses associated with analytics requests to estimate approximate location, such as country, region, or city. Pipday mainly uses country-level information for product analytics and troubleshooting. IP addresses may be retained by Amplitude according to its data-handling practices.</p>
+        <p>Pipday does not send your photos, stickers, Pages, personal content, support messages, or payment card information to Amplitude.</p>
+        <p>Pipday does not request GPS or precise location access, use advertising identifiers such as IDFA, sell personal information, or use analytics data for targeted advertising or cross-app tracking.</p>
 
         <h2>8. Deleting Your Data</h2>
         <p>You can delete stickers and Pages from within Pipday.</p>
