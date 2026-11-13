@@ -24,13 +24,13 @@
 
       <section id="privacy" aria-labelledby="privacy-title">
         <h1 id="privacy-title">Privacy Policy</h1>
-        <p class="updated">Last updated: October 4, 2026</p>
+        <p class="updated">Last updated: November 13, 2026</p>
 
         <h2>Privacy at a Glance</h2>
         <p>Pipday processes the photos you select and creates stickers and Pages directly on your device. Your selected photos, sticker images, Page images, Page backgrounds, and Page content are not uploaded to Pipday servers or to our analytics provider.</p>
         <p>Pipday does not require an account.</p>
-        <p>Pipday uses Amplitude to collect limited analytics data about how the app is used. This includes a pseudonymous device identifier, app interaction events, session information, app and system version information, device model, and device language.</p>
-        <p>Pipday does not use advertising identifiers, cross-app tracking, targeted advertising, or precise or coarse location data.</p>
+        <p>Pipday uses Amplitude to collect limited analytics data about how the app is used. This includes a pseudonymous device identifier, app interaction events, session information, app and system version information, device model, device language, the Pipday interface language, and approximate geographic information inferred from the IP address of an analytics request.</p>
+        <p>Pipday does not request GPS or precise-location permission and does not collect precise coordinates. We mainly use the country or region inferred from an IP address for product analytics and issue investigation. We do not use this information for targeted advertising or cross-app tracking.</p>
 
         <h2>1. Photos and Local Image Processing</h2>
         <p>When you choose a photo to create a sticker or use as a Page background, Pipday uses Apple’s system photo picker so you can select the specific photo you want to use.</p>
@@ -96,12 +96,18 @@
           <li>Pipday app version;</li>
           <li>iOS version;</li>
           <li>device model;</li>
-          <li>device language; and</li>
+          <li>device language;</li>
+          <li>the Pipday interface language (<code>app_language</code>);</li>
+          <li>approximate geographic information inferred from the IP address of an analytics request, as described below; and</li>
           <li>technical event information such as event timestamps.</li>
         </ul>
         <p>Pipday does not send your selected photos, sticker images, Page images or exports, Page background photos, Page text or other Page content, color palette contents, support messages, or payment card information to Amplitude.</p>
         <p>Pipday does not set an Amplitude user account identifier and does not require a Pipday account.</p>
-        <p>Pipday configures Amplitude not to collect location information for analytics. IP address is not stored as an analytics property or used by Pipday to derive country, region, city, or other location information.</p>
+        <p>Amplitude receives the IP address associated with an analytics network request and uses GeoIP processing to infer approximate geographic information. This processing may produce country, region, city, or Designated Market Area (DMA) information. Pipday mainly uses Country to understand product usage across broad geographic areas and to investigate product issues.</p>
+        <p>Pipday does not request GPS or precise-location permission, does not send latitude or longitude to Amplitude, and does not add an IP address to custom event properties. GeoIP information is approximate and may reflect a network or VPN location rather than the device's actual location.</p>
+        <p>Amplitude processes the IP address associated with analytics requests to estimate approximate geographic information, such as country, region, or city. We mainly use country-level information to understand app usage and investigate issues.</p>
+        <p>IP addresses may be retained by Amplitude according to its data-handling and retention practices.</p>
+        <p>Pipday does not request precise location permissions or collect GPS coordinates. We do not use this information for targeted advertising or cross-app tracking.</p>
         <p>Pipday does not use IDFA or other advertising identifiers.</p>
         <p>Analytics information is used only to understand app usage, evaluate features, identify product issues, and improve Pipday.</p>
         <p>Pipday does not use analytics information for targeted advertising or cross-app tracking and does not sell your personal information.</p>
